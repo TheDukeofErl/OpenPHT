@@ -97,7 +97,7 @@ bool CPlexTranscoderClientRPi::ShouldTranscode(CPlexServerPtr server, const CFil
   // default capping values
   m_maxVideoBitrate = 200000;
   m_maxAudioBitrate = 100000;
-  int maxBitDepth = 8;
+  int maxBitDepth = 10;
 
   // grab some other information in the audio / video streams
   int audioBitRate = 0;
